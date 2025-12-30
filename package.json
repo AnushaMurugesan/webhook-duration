@@ -1,0 +1,21 @@
+{
+  "name": "webhook-duration",
+  "version": "1.0.0",
+  "description": "Vapi webhook handler for call duration limits",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "local": "node server.js",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "vercel": "^50.1.3"
+  }
+}
