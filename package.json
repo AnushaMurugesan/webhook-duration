@@ -2,6 +2,7 @@
   "name": "webhook-duration",
   "version": "1.0.0",
   "description": "Vapi webhook handler for call duration limits",
+  "type": "module",
   "main": "api/webhook.js",
   "scripts": {
     "dev": "vercel dev",
