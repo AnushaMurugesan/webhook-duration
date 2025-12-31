@@ -5,9 +5,7 @@
   "type": "module",
   "main": "api/webhook.js",
   "scripts": {
-    "dev": "vercel dev",
-    "local": "node server.js",
-    "deploy": "vercel --prod"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
